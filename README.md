@@ -8,4 +8,4 @@
 | On the Texture Bias for Few-Shot CNN Segmentation | WACV | [PDF](https://arxiv.org/pdf/2003.04052v1.pdf) | [CODE](https://github.com/rezazad68/fewshot-segmentation) |
 
 # Credits 
-Template credits to [Few-Shot-Semantic-Segmentation-Papers] (https://github.com/xiaomengyc/Few-Shot-Semantic-Segmentation-Papers) by [Xiaolin Zhang] (https://github.com/xiaomengyc) 
+Template credits to [Few-Shot-Semantic-Segmentation-Papers](https://github.com/xiaomengyc/Few-Shot-Semantic-Segmentation-Papers) by [Xiaolin Zhang](https://github.com/xiaomengyc) 
