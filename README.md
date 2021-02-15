@@ -5,7 +5,7 @@
 ## 2018
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
-| fastMRI: An Open Dataset and Benchmarks for Accelerated MRI | Machine learning and public dataset | [PDF](https://arxiv.org/pdf/1811.08839.pdf) | [CODE](https://github.com/facebookresearch/fastMRI/) |
+| fastMRI: An Open Dataset and Benchmarks for Accelerated MRI | Machine learning baselines and public dataset | [PDF](https://arxiv.org/pdf/1811.08839.pdf) | [CODE](https://github.com/facebookresearch/fastMRI/) |
 
 ## 2013
 | Title | Short | PDF | CODE |
