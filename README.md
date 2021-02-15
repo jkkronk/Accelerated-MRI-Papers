@@ -4,7 +4,7 @@
 
 ## 2021
 | Title | PDF | CODE |
-| :-----|:-----:|:---:|:----:|
+| :-----|:---:|:----:|
 | fastMRI: An Open Dataset and Benchmarks for Accelerated MRI |[PDF](https://arxiv.org/pdf/1811.08839.pdf) | [CODE](https://github.com/facebookresearch/fastMRI/) |
 
 # Credits 
