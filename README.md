@@ -29,6 +29,7 @@
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
 | ACCELERATING MAGNETIC RESONANCE IMAGING VIA DEEP LEARNING | Supervised Variational Network | [PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6839781/) | [CODE](--) |
+| A General Framework for Compressed Sensing and Parallel MRI Using Annihilating Filter Based Low-Rank Hankel Matrix | Parallel imaging and Compressed Sensing (CS) | [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7547372) | |
 
 ## 2013
 | Title | Short | PDF | CODE |
