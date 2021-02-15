@@ -6,12 +6,15 @@
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
 | STATE-OF-THE-ART MACHINE LEARNING MRI RECONSTRUCTION IN 2020: RESULTS OF THE SECOND FASTMRI CHALLENGE | Competition results | [PDF](https://hal.archives-ouvertes.fr/hal-03066150/document) | |
-
+| Joint reconstruction and bias field correction for undersampled MR imaging | Unsupervised Joint biasfield and reconstruction | [PDF](https://arxiv.org/pdf/2007.13123v1.pdf) | |
+| Sampling possible reconstructions of undersampled acquisitions in MR imaging | Uncertainty of reconstruction | [PDF](https://arxiv.org/pdf/2010.00042.pdf) | |
 
 ## 2019
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
 | Deep Learning Methods for Parallel Magnetic Resonance Image Reconstruction | Overview | [PDF](https://arxiv.org/pdf/1904.01112.pdf) | |
+| MR Image Reconstruction Using Deep Density Priors | Unsupervised VAE | [PDF](https://arxiv.org/pdf/1904.01112.pdf) | [CODE](https://github.com/kctezcan/ddp_recon) |
+| Neumann Networks for Linear Inverse Problems in Imaging | Supervised end-to-end reconstruction | [PDF](https://arxiv.org/pdf/1901.03707.pdf) | [CODE](https://dgilton.github.io/neumann_networks/) |
 
 ## 2018
 | Title | Short | PDF | CODE |
@@ -39,6 +42,7 @@
 ## 2007
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
+| Joint image reconstruction and sensitivity estimation in SENSE (JSENSE) | Parallel imaging | [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.21245) | [CODE](https://github.com/jkkronk/jsense_mri_reconstruction) |
 | Magnetic Resonance in Medicine 58:1182–1195 (2007)Sparse MRI: The Application of Compressed Sensingfor Rapid MR Imaging | Compressed Sensing (CS) | [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.21391) | [CODE](https://github.com/peng-cao/mripy) |
 
 ## 2005
