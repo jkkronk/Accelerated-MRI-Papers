@@ -6,6 +6,18 @@
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
 | fastMRI: An Open Dataset and Benchmarks for Accelerated MRI | Machine learning baselines and public dataset | [PDF](https://arxiv.org/pdf/1811.08839.pdf) | [CODE](https://github.com/facebookresearch/fastMRI/) |
+|  Image reconstruction by domain transform manifold learning | Supervised Manifold learning | [PDF](https://arxiv.org/pdf/1704.08841.pdf) | [CODE](https://github.com/chongduan/MRI-AUTOMAP) |
+
+## 2017
+| Title | Short | PDF | CODE |
+| :-----|:---:|:---:|:----:|
+| Learning a Variational Network for Reconstruction of Accelerated MRI Data | Supervised Variational Network | [PDF](https://arxiv.org/pdf/1704.00447.pdf) | [CODE](https://github.com/VLOGroup/mri-variationalnetwork) |
+| A Deep Cascade of Convolutional Neural Networks for MR Image Reconstruction | Supervised Cascade Network | [PDF](https://arxiv.org/pdf/1703.00555.pdf) | [CODE](https://github.com/js3611/Deep-MRI-Reconstruction) |
+
+## 2016
+| Title | Short | PDF | CODE |
+| :-----|:---:|:---:|:----:|
+| ACCELERATING MAGNETIC RESONANCE IMAGING VIA DEEP LEARNING | Supervised Variational Network | [PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6839781/) | [CODE](--) |
 
 ## 2013
 | Title | Short | PDF | CODE |
