@@ -2,6 +2,11 @@
 
 *NOTE:* If your paper is not in the list, plese feel free to [raise an issue](https://github.com/jkkronk/MRI-Reconstruction-Papers/issues) or drop me an [e-mail](mailto:jonatank@ee.ethz.ch?subject=[GitHub]%mri_recon%papers).
 
+## 2019
+| Title | Short | PDF | CODE |
+| :-----|:---:|:---:|:----:|
+| Deep Learning Methods for Parallel Magnetic Resonance Image Reconstruction | Overview Paper | [PDF](https://arxiv.org/pdf/1904.01112.pdf) | |
+
 ## 2018
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
