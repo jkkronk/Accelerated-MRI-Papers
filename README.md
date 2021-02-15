@@ -5,7 +5,7 @@
 ## 2020
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
-| STATE-OF-THE-ART MACHINE LEARNING MRI RECONSTRUCTION IN 2020: RESULTS OF THE SECOND FASTMRI CHALLENGE | Competition results | [PDF](https://hal.archives-ouvertes.fr/hal-03066150/document) | |
+| State-of-the-art Machine Learning MRI Reonsctruction In 2020: Results of the Second FastMRI Challenge | Competition results | [PDF](https://hal.archives-ouvertes.fr/hal-03066150/document) | |
 | Joint reconstruction and bias field correction for undersampled MR imaging | Unsupervised Joint biasfield and reconstruction | [PDF](https://arxiv.org/pdf/2007.13123v1.pdf) | |
 | Sampling possible reconstructions of undersampled acquisitions in MR imaging | Uncertainty of reconstruction | [PDF](https://arxiv.org/pdf/2010.00042.pdf) | |
 
@@ -31,7 +31,7 @@
 ## 2016
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
-| ACCELERATING MAGNETIC RESONANCE IMAGING VIA DEEP LEARNING | Supervised Variational Network | [PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6839781/) | [CODE](--) |
+| Accelerating Magnetic Resonance Imaging via Deep Learning | Supervised Variational Network | [PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6839781/) | [CODE](--) |
 | A General Framework for Compressed Sensing and Parallel MRI Using Annihilating Filter Based Low-Rank Hankel Matrix | Parallel imaging and Compressed Sensing (CS) | [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7547372) | |
 
 ## 2013
