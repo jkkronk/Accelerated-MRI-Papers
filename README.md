@@ -5,8 +5,7 @@
 ## 2020
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
-| STATE-OF-THE-ART MACHINE LEARNING MRI
-RECONSTRUCTION IN 2020: RESULTS OF THE SECOND FASTMRI CHALLENGE | Competition results | [PDF](https://hal.archives-ouvertes.fr/hal-03066150/document) | |
+| STATE-OF-THE-ART MACHINE LEARNING MRI RECONSTRUCTION IN 2020: RESULTS OF THE SECOND FASTMRI CHALLENGE | Competition results | [PDF](https://hal.archives-ouvertes.fr/hal-03066150/document) | |
 
 
 ## 2019
