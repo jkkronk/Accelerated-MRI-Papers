@@ -12,10 +12,20 @@
 | :-----|:---:|:---:|:----:|
 | ESPIRiT—an eigenvalue approach to autocalibrating parallel MRI: Where SENSE meets GRAPPA | Parallel imaging | [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.24751) | [CODE](https://github.com/mikgroup/sigpy) |
 
+## 2007
+| Title | Short | PDF | CODE |
+| :-----|:---:|:---:|:----:|
+| Magnetic Resonance in Medicine 58:1182–1195 (2007)Sparse MRI: The Application of Compressed Sensingfor Rapid MR Imaging | Compressed Sensing (CS) | [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.21391) | [CODE](https://github.com/peng-cao/mripy) |
+
 ## 2005
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
 | Simultaneous Acquisition of Spatial Harmonics (SMASH): Fast Imaging with Radiofrequency Coil Arrays | Parallel imaging | [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.1910380414) | [CODE](--) |
+
+## 2004
+| Title | Short | PDF | CODE |
+| :-----|:---:|:---:|:----:|
+| Robust Uncertainty Principles: Exact Signal Reconstruction from Highly Incomplete Frequency Information | Compressed Sensing (CS) | [PDF](https://arxiv.org/pdf/math/0409186.pdf) | [CODE](https://github.com/peng-cao/mripy) |
 
 ## 2002
 | Title | Short | PDF | CODE |
