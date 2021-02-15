@@ -17,6 +17,11 @@
 | :-----|:---:|:---:|:----:|
 | Simultaneous Acquisition of Spatial Harmonics (SMASH): Fast Imaging with Radiofrequency Coil Arrays | Parallel imaging | [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.1910380414) | [CODE](--) |
 
+## 2002
+| Title | Short | PDF | CODE |
+| :-----|:---:|:---:|:----:|
+| Generalized autocalibrating partially parallel acquisitions (GRAPPA) | Parallel imaging | [PDF](https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.10171?sid=nlm%3Apubmed) | [CODE](https://github.com/tetianadadakova/Tutorial-MRI-Reconstruction-Using-GRAPPA) |
+
 
 ## 1999
 | Title | Short | PDF | CODE |
