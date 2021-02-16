@@ -12,7 +12,7 @@
 ## 2019
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
-| Deep Learning Methods for Parallel Magnetic Resonance Image Reconstruction | Overview | [PDF](https://arxiv.org/pdf/1904.01112.pdf) | |
+| Deep Learning Methods for Parallel Magnetic Resonance Image Reconstruction | Survey | [PDF](https://arxiv.org/pdf/1904.01112.pdf) | |
 | MR Image Reconstruction Using Deep Density Priors | Unsupervised VAE | [PDF](https://arxiv.org/pdf/1904.01112.pdf) | [CODE](https://github.com/kctezcan/ddp_recon) |
 | Neumann Networks for Linear Inverse Problems in Imaging | Supervised end-to-end reconstruction | [PDF](https://arxiv.org/pdf/1901.03707.pdf) | [CODE](https://dgilton.github.io/neumann_networks/) |
 
@@ -21,18 +21,22 @@
 | :-----|:---:|:---:|:----:|
 | fastMRI: An Open Dataset and Benchmarks for Accelerated MRI | Machine learning baselines and public dataset | [PDF](https://arxiv.org/pdf/1811.08839.pdf) | [CODE](https://github.com/facebookresearch/fastMRI/) |
 |  Image reconstruction by domain transform manifold learning | Supervised Manifold learning | [PDF](https://arxiv.org/pdf/1704.08841.pdf) | [CODE](https://github.com/chongduan/MRI-AUTOMAP) |
+| KIKI-net: cross-domain convolutional neural networ ks forreconstructing undersampled magnetic resonan ce images | Supervised CNN | [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.27201) | [CODE](https://github.com/zaccharieramzi/fastmri-reproducible-benchmark) |
+
 
 ## 2017
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
 | Learning a Variational Network for Reconstruction of Accelerated MRI Data | Supervised Variational Network | [PDF](https://arxiv.org/pdf/1704.00447.pdf) | [CODE](https://github.com/VLOGroup/mri-variationalnetwork) |
 | A Deep Cascade of Convolutional Neural Networks for MR Image Reconstruction | Supervised Cascade Network | [PDF](https://arxiv.org/pdf/1703.00555.pdf) | [CODE](https://github.com/js3611/Deep-MRI-Reconstruction) |
+| Deep De-Aliasing for Fast Compressive Sensing MRI | GAN | [PDF](https://arxiv.org/pdf/1705.07137.pdf) | [CODE](https://github.com/tensorlayer/DAGAN) |
 
 ## 2016
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
 | Accelerating Magnetic Resonance Imaging via Deep Learning | Supervised Variational Network | [PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6839781/) | [CODE](--) |
 | A General Framework for Compressed Sensing and Parallel MRI Using Annihilating Filter Based Low-Rank Hankel Matrix | Parallel imaging and Compressed Sensing (CS) | [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7547372) | |
+| Deep ADMM-Net for Compressive Sensing MRI | Supervised and Compressed Sensing (CS) | [PDF](https://papers.nips.cc/paper/2016/file/1679091c5a880faf6fb5e6087eb1b2dc-Paper.pdf) | [CODE](https://github.com/yangyan92/Deep-ADMM-Net) |
 
 ## 2013
 | Title | Short | PDF | CODE |
@@ -54,6 +58,7 @@
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
 | Robust Uncertainty Principles: Exact Signal Reconstruction from Highly Incomplete Frequency Information | Compressed Sensing (CS) | [PDF](https://arxiv.org/pdf/math/0409186.pdf) | [CODE](https://github.com/peng-cao/mripy) |
+| POCSENSE: POCS-based reconstruction for sensitivity encoded magnetic resonance imaging | Parallel imaging | [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.20285) | [CODE](https://mrirecon.github.io/bart/) |
 
 ## 2002
 | Title | Short | PDF | CODE |
