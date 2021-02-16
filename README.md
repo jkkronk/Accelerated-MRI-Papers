@@ -8,6 +8,7 @@
 | State-of-the-art Machine Learning MRI Reonsctruction In 2020: Results of the Second FastMRI Challenge | Competition results | [PDF](https://hal.archives-ouvertes.fr/hal-03066150/document) | |
 | Joint reconstruction and bias field correction for undersampled MR imaging | Unsupervised Joint biasfield and reconstruction | [PDF](https://arxiv.org/pdf/2007.13123v1.pdf) | |
 | Sampling possible reconstructions of undersampled acquisitions in MR imaging | Uncertainty of reconstruction | [PDF](https://arxiv.org/pdf/2010.00042.pdf) | |
+| GrappaNet: Combining Parallel Imaging with Deep Learning for Multi-Coil MRI Reconstruction | Supervised kspace | [PDF](https://arxiv.org/pdf/1910.12325v4.pdf) | [CODE](https://github.com/facebookresearch/fastMRI) |
 
 ## 2019
 | Title | Short | PDF | CODE |
@@ -15,6 +16,7 @@
 | Deep Learning Methods for Parallel Magnetic Resonance Image Reconstruction | Survey | [PDF](https://arxiv.org/pdf/1904.01112.pdf) | |
 | MR Image Reconstruction Using Deep Density Priors | Unsupervised VAE | [PDF](https://arxiv.org/pdf/1904.01112.pdf) | [CODE](https://github.com/kctezcan/ddp_recon) |
 | Neumann Networks for Linear Inverse Problems in Imaging | Supervised end-to-end reconstruction | [PDF](https://arxiv.org/pdf/1901.03707.pdf) | [CODE](https://dgilton.github.io/neumann_networks/) |
+| LORAKI: Autocalibrated Recurrent Neural Networks for Autoregressive MRI Reconstruction in k-Space | Supervised CNN Kspace | [PDF](https://arxiv.org/pdf/1904.09390.pdf) |  |
 
 ## 2018
 | Title | Short | PDF | CODE |
@@ -22,6 +24,7 @@
 | fastMRI: An Open Dataset and Benchmarks for Accelerated MRI | Machine learning baselines and public dataset | [PDF](https://arxiv.org/pdf/1811.08839.pdf) | [CODE](https://github.com/facebookresearch/fastMRI/) |
 |  Image reconstruction by domain transform manifold learning | Supervised Manifold learning | [PDF](https://arxiv.org/pdf/1704.08841.pdf) | [CODE](https://github.com/chongduan/MRI-AUTOMAP) |
 | KIKI-net: cross-domain convolutional neural networ ks forreconstructing undersampled magnetic resonan ce images | Supervised CNN | [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.27201) | [CODE](https://github.com/zaccharieramzi/fastmri-reproducible-benchmark) |
+| Scan-specific robust artificial-neural-networks for k-space interpolation (RAKI) reconstruction: Database-free deep learning for fast imaging | Supervised CNN Kspace | [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.27420) | [CODE](https://github.com/zczam/RAKI) |
 
 
 ## 2017
