@@ -27,6 +27,7 @@
 |  Image reconstruction by domain transform manifold learning | Supervised Manifold learning | [PDF](https://arxiv.org/pdf/1704.08841.pdf) | [CODE](https://github.com/chongduan/MRI-AUTOMAP) |
 | KIKI-net: cross-domain convolutional neural networ ks forreconstructing undersampled magnetic resonan ce images | Supervised CNN | [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.27201) | [CODE](https://github.com/zaccharieramzi/fastmri-reproducible-benchmark) |
 | Scan-specific robust artificial-neural-networks for k-space interpolation (RAKI) reconstruction: Database-free deep learning for fast imaging | Supervised CNN Kspace | [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.27420) | [CODE](https://github.com/zczam/RAKI) |
+| DeepSPIRiT: Generalized Parallel Imaging using Deep Convolutional Neural Networks | K-space interpolation: SPIRiT approach | [PDF](https://www.nature.com/articles/s41598-020-69932-w) |  |
 
 
 ## 2017
