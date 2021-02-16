@@ -9,6 +9,7 @@
 | Joint reconstruction and bias field correction for undersampled MR imaging | Unsupervised Joint biasfield and reconstruction | [PDF](https://arxiv.org/pdf/2007.13123v1.pdf) | |
 | Sampling possible reconstructions of undersampled acquisitions in MR imaging | Uncertainty of reconstruction | [PDF](https://arxiv.org/pdf/2010.00042.pdf) | |
 | GrappaNet: Combining Parallel Imaging with Deep Learning for Multi-Coil MRI Reconstruction | Supervised kspace | [PDF](https://arxiv.org/pdf/1910.12325v4.pdf) | [CODE](https://github.com/facebookresearch/fastMRI) |
+| Unsupervised MRI Reconstruction with Generative Adversarial Networks | Unsupervised GAN | [PDF](https://arxiv.org/pdf/2008.13065.pdf) | [CODE](https://github.com/MRSRL/unsupGAN-release) |
 
 ## 2019
 | Title | Short | PDF | CODE |
@@ -17,6 +18,7 @@
 | MR Image Reconstruction Using Deep Density Priors | Unsupervised VAE | [PDF](https://arxiv.org/pdf/1904.01112.pdf) | [CODE](https://github.com/kctezcan/ddp_recon) |
 | Neumann Networks for Linear Inverse Problems in Imaging | Supervised end-to-end reconstruction | [PDF](https://arxiv.org/pdf/1901.03707.pdf) | [CODE](https://dgilton.github.io/neumann_networks/) |
 | LORAKI: Autocalibrated Recurrent Neural Networks for Autoregressive MRI Reconstruction in k-Space | Supervised CNN Kspace | [PDF](https://arxiv.org/pdf/1904.09390.pdf) |  |
+| Unsupervised Deep Basis Pursuit: Learning inverse problems without ground-truth data | Supervised and Unsupervised end-to-end reconstruction | [PDF](https://arxiv.org/pdf/1910.13110.pdf) | |
 
 ## 2018
 | Title | Short | PDF | CODE |
