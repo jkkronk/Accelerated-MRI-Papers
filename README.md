@@ -2,6 +2,13 @@
 
 *NOTE:* If your paper is not in the list, plese feel free to [raise an issue](https://github.com/jkkronk/MRI-Reconstruction-Papers/issues) or drop me an [e-mail](mailto:jonatank@ee.ethz.ch?subject=[GitHub]%mri_recon%papers).
 
+
+## 2021
+| Title | Short | PDF | CODE |
+| :-----|:---:|:---:|:----:|
+| Bayesian Uncertainty Estimation of Learned Variational MRI Reconstruction | Epistemic Uncertainty Estimation | [PDF](https://arxiv.org/pdf/2102.06665.pdf) | |
+
+
 ## 2020
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
