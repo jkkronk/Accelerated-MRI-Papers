@@ -16,6 +16,8 @@
 | Joint reconstruction and bias field correction for undersampled MR imaging | Unsupervised Joint biasfield and reconstruction | [PDF](https://arxiv.org/pdf/2007.13123v1.pdf) | |
 | Sampling possible reconstructions of undersampled acquisitions in MR imaging | Uncertainty Estimation | [PDF](https://arxiv.org/pdf/2010.00042.pdf) | |
 | GrappaNet: Combining Parallel Imaging with Deep Learning for Multi-Coil MRI Reconstruction | Supervised kspace | [PDF](https://arxiv.org/pdf/1910.12325v4.pdf) | [CODE](https://github.com/facebookresearch/fastMRI) |
+| XPDNet for MRI Reconstruction: an Application to the fastMRI 2020 Brain Challenge | Supervised unrolled | [PDF](https://arxiv.org/pdf/2010.07290.pdf) | |
+| End-to-End Variational Networks for Accelerated MRI Reconstruction | E2E Varnet | [PDF](https://arxiv.org/pdf/2004.06688.pdf) | [CODE](https://github.com/facebookresearch/fastMRI/tree/master/fastmri_examples/varnet) |
 | Unsupervised MRI Reconstruction with Generative Adversarial Networks | Unsupervised GAN | [PDF](https://arxiv.org/pdf/2008.13065.pdf) | [CODE](https://github.com/MRSRL/unsupGAN-release) |
 
 ## 2019
