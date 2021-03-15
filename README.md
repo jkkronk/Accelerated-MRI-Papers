@@ -24,7 +24,7 @@
 | Title | Short | PDF | CODE |
 | :-----|:---:|:---:|:----:|
 | Deep Learning Methods for Parallel Magnetic Resonance Image Reconstruction | Survey | [PDF](https://arxiv.org/pdf/1904.01112.pdf) | |
-| MR Image Reconstruction Using Deep Density Priors | Unsupervised VAE | [PDF](https://arxiv.org/pdf/1904.01112.pdf) | [CODE](https://github.com/kctezcan/ddp_recon) |
+| MR Image Reconstruction Using Deep Density Priors | Unsupervised VAE | [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8579232) | [CODE](https://github.com/kctezcan/ddp_recon) |
 | Neumann Networks for Linear Inverse Problems in Imaging | Supervised end-to-end reconstruction | [PDF](https://arxiv.org/pdf/1901.03707.pdf) | [CODE](https://dgilton.github.io/neumann_networks/) |
 | LORAKI: Autocalibrated Recurrent Neural Networks for Autoregressive MRI Reconstruction in k-Space | Supervised CNN Kspace | [PDF](https://arxiv.org/pdf/1904.09390.pdf) |  |
 | Unsupervised Deep Basis Pursuit: Learning inverse problems without ground-truth data | Supervised and Unsupervised end-to-end reconstruction | [PDF](https://arxiv.org/pdf/1910.13110.pdf) | |
