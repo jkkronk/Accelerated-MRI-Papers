@@ -1,6 +1,7 @@
 # MRI-Reconstruction-Papers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+Just a few papers on MRI reconstruction that I found interesting to read.
 
-*NOTE:* If your paper is not in the list, plese feel free to [raise an issue](https://github.com/jkkronk/MRI-Reconstruction-Papers/issues) or drop me an [e-mail](mailto:jonatank@ee.ethz.ch?subject=[GitHub]%mri_recon%papers).
+If your paper is not on the list, please feel free to [raise an issue](https://github.com/jkkronk/MRI-Reconstruction-Papers/issues) or drop me an [e-mail](mailto:jonatank@ee.ethz.ch?subject=[GitHub]%mri_recon%papers).
 
 
 ## 2021
