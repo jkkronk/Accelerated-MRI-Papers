@@ -1,4 +1,8 @@
-# MRI-Reconstruction-Papers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome MRI-Reconstruction-Papers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+
+
+
 Just a few papers on MRI reconstruction that I found interesting to read.
 
 If your paper is not on the list, please feel free to [raise an issue](https://github.com/jkkronk/MRI-Reconstruction-Papers/issues) or drop me an [e-mail](mailto:jonatank@ee.ethz.ch?subject=[GitHub]%mri_recon%papers).
@@ -94,4 +98,4 @@ If your paper is not on the list, please feel free to [raise an issue](https://g
 | Simultaneous Acquisition of Spatial Harmonics (SMASH): Fast Imaging with Radiofrequency Coil Arrays Encoded Magnetic Resonance Imaging | Parallel imaging | [PDF](https://pubmed.ncbi.nlm.nih.gov/9324327/) | |
 
 # Credits 
-Template credits to [Few-Shot-Semantic-Segmentation-Papers](https://github.com/xiaomengyc/Few-Shot-Semantic-Segmentation-Papers) by [Xiaolin Zhang](https://github.com/xiaomengyc) 
+Template credits to [Few-Shot-Semantic-Segmentation-Papers](https://github.com/xiaomengyc/Few-Shot-Semantic-Segmentation-Papers) by [Xiaolin Zhang](https://github.com/xiaomengyc) and [awesome anomaly detection](https://github.com/hoya012/awesome-anomaly-detection) by [Hoseong, Lee @hoya012]
