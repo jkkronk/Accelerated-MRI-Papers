@@ -7,7 +7,7 @@ If your paper is not on the list, please feel free to [raise an issue](https://g
 MRI is acquiring data in the Fourier domain, called kspace, and to fully sampling the data in kspace is needed to get an accurate image without artefacts. This is a time-consuming task that results in a brain scan taking up to 30 minutes. Accelerated MRI-Reconstruction seeks to reduce the acquisition time to improve efficiency, reduce motion artefacts and improve patient comfort. Accelerated MRI can be done by either introducing new hardware, such as extra receiver coils (called parallel imaging), or apply algorithms for better reconstruction. An excellent detailed introduction can found in [fastMRI dataset paper](https://arxiv.org/pdf/1811.08839.pdf). Below is an example of a fully sampled and undersampled counterpart. MRI-Reconstruction can be compared with super-resolution as the main goal is to estimate unsampled frequencies. 
 
 <p align="center">
-  <img width="600" src="/MRI_rec.PNG" "Example of undersampling artefacts.">
+  <img width="600" src="/MRI_rec.png" "Example of undersampling artefacts.">
 </p>
 
 ## Supervised Deep Learning Methods 
