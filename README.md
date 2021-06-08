@@ -12,7 +12,7 @@ MRI is acquiring data in the Fourier domain, called kspace, and to fully samplin
 
 ## Supervised Deep Learning Methods 
 | Title | Short | Year| PDF | CODE |
-| :-----|:---:|:---:|:----:|
+| :-----|:---:|:---:|:----:|:----:|
 | End-to-End Variational Networks for Accelerated MRI Reconstruction | E2E Varnet | 2020| [PDF](https://arxiv.org/pdf/2004.06688.pdf) | [CODE](https://github.com/facebookresearch/fastMRI/tree/master/fastmri_examples/varnet) |
 | XPDNet for MRI Reconstruction: an Application to the fastMRI 2020 Brain Challenge | Supervised unrolled | 2020 | [PDF](https://arxiv.org/pdf/2010.07290.pdf) | |
 | GrappaNet: Combining Parallel Imaging with Deep Learning for Multi-Coil MRI Reconstruction | Supervised kspace | 2020 | [PDF](https://arxiv.org/pdf/1910.12325v4.pdf) | [CODE](https://github.com/facebookresearch/fastMRI) |
@@ -27,30 +27,30 @@ MRI is acquiring data in the Fourier domain, called kspace, and to fully samplin
 
 ## Unsupervised Deep Learning Methods
 | Title | Short | Year| PDF | CODE |
-| :-----|:---:|:---:|:----:|
+| :-----|:---:|:---:|:----:|:----:|
 | Unsupervised MRI Reconstruction with Generative Adversarial Networks | Unsupervised with GAN | 2020 | [PDF](https://arxiv.org/pdf/2008.13065.pdf) | [CODE](https://github.com/MRSRL/unsupGAN-release) |
 | Unsupervised Deep Basis Pursuit: Learning inverse problems without ground-truth data | Supervised and Unsupervised end-to-end reconstruction | 2019 | [PDF](https://arxiv.org/pdf/1910.13110.pdf) | |
 
 ## Untrained Methods
 | Title | Short | Year| PDF | CODE |
-| :-----|:---:|:---:|:----:|
+| :-----|:---:|:---:|:----:|:----:|
 | Unsupervised Deep Basis Pursuit: Learning inverse problems without ground-truth data | DIP | 2020 | [PDF](https://arxiv.org/pdf/1910.13110.pdf) | |
 | Accelerated MRI with Un-trained Neural Networks | Untrained | 2020 | [PDF](https://arxiv.org/pdf/2007.02471.pdf) | |
 
 ## Low Rank Methods 
 | Title | Short | Year| PDF | CODE |
-| :-----|:---:|:---:|:----:|
+| :-----|:---:|:---:|:----:|:----:|
 | A General Framework for Compressed Sensing and Parallel MRI Using Annihilating Filter Based Low-Rank Hankel Matrix | Parallel imaging and Compressed Sensing (CS) | 2016 | [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7547372) | |
 
 ## Prior Based Methods
 | Title | Short | Year| PDF | CODE |
-| :-----|:---:|:---:|:----:|
+| :-----|:---:|:---:|:----:|:----:|
 | Joint reconstruction and bias field correction for undersampled MR imaging | VAE reconstruction with Joint biasfield and reconstruction | 2020 | [PDF](https://arxiv.org/pdf/2007.13123v1.pdf) | |
 | MR Image Reconstruction Using Deep Density Priors | VAE | 2019 | [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8579232) | [CODE](https://github.com/kctezcan/ddp_recon) |
 
 ## Classical Methods for Parallel Imaging and Compress Sensing 
 | Title | Short | Year| PDF | CODE |
-| :-----|:---:|:---:|:----:|
+| :-----|:---:|:---:|:----:|:----:|
 | ESPIRiT—an eigenvalue approach to autocalibrating parallel MRI: Where SENSE meets GRAPPA | Parallel imaging | 2014 | [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.24751) | [CODE](https://github.com/mikgroup/sigpy) |
 | Joint image reconstruction and sensitivity estimation in SENSE (JSENSE) | Parallel imaging | 2007| [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.21245) | [CODE](https://github.com/jkkronk/jsense_mri_reconstruction) |
 | Sparse MRI: The Application of Compressed Sensingfor Rapid MR Imaging | Compressed Sensing (CS) | 2007| [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.21391) | [CODE](https://github.com/peng-cao/mripy) |
@@ -64,14 +64,14 @@ MRI is acquiring data in the Fourier domain, called kspace, and to fully samplin
 
 ## Uncertainty Estimation
 | Title | Short | Year| PDF | CODE |
-| :-----|:---:|:---:|:----:|
+| :-----|:---:|:---:|:----:|:----:|
 | Bayesian Uncertainty Estimation of Learned Variational MRI Reconstruction | Epistemic Uncertainty Estimation | 2021 | [PDF](https://arxiv.org/pdf/2102.06665.pdf) | |
 | Uncertainty Quantification in Deep MRI Reconstruction | Uncertainty | 2021 | [PDF](https://arxiv.org/pdf/1901.11228.pdf) | |
 | Sampling possible reconstructions of undersampled acquisitions in MR imaging | Uncertainty Estimation | 2020 | [PDF](https://arxiv.org/pdf/2010.00042.pdf) | |
 
 ## Robustness 
 | Title | Short | Year| PDF | CODE |
-| :-----|:---:|:---:|:----:|
+| :-----|:---:|:---:|:----:|:----:|
 | Measuring Robustness in Deep Learning Based Compressive Sensing | Robustness | 2021 | [PDF](https://arxiv.org/pdf/2102.06103.pdf) | |
 | Improving Robustness of Deep-Learning-Based Image Reconstruction | Robustness | 2020 | [PDF](https://arxiv.org/pdf/2002.11821.pdf) | |
 | On instabilities of deep learning in image reconstruction and the potential costs of AI | Robustness review | 2019 | [PDF](https://arxiv.org/pdf/1902.05300.pdf) | [CODE](https://github.com/vegarant/Invfool) |
@@ -79,7 +79,7 @@ MRI is acquiring data in the Fourier domain, called kspace, and to fully samplin
 
 ## Other
 | Title | Short | Year| PDF | CODE |
-| :-----|:---:|:---:|:----:|
+| :-----|:---:|:---:|:----:|:----:|
 | Results of the 2020 fastMRI Challenge for Machine Learning MR Image Reconstruction | Competition results | [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9420272&tag=1) | |
 | Deep Learning Methods for Parallel Magnetic Resonance Image Reconstruction | Survey | 2019 | [PDF](https://arxiv.org/pdf/1904.01112.pdf) | |
 | fastMRI: An Open Dataset and Benchmarks for Accelerated MRI | Machine learning baselines and public dataset | 2019 | [PDF](https://arxiv.org/pdf/1811.08839.pdf) | [CODE](https://github.com/facebookresearch/fastMRI/) |
