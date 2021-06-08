@@ -80,7 +80,7 @@ MRI is acquiring data in the Fourier domain, called kspace, and to fully samplin
 ## Other
 | Title | Short | Year| PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
-| Results of the 2020 fastMRI Challenge for Machine Learning MR Image Reconstruction | Competition results | [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9420272&tag=1) | |
+| Results of the 2020 fastMRI Challenge for Machine Learning MR Image Reconstruction | Competition results | 2021 | [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9420272&tag=1) | |
 | Deep Learning Methods for Parallel Magnetic Resonance Image Reconstruction | Survey | 2019 | [PDF](https://arxiv.org/pdf/1904.01112.pdf) | |
 | fastMRI: An Open Dataset and Benchmarks for Accelerated MRI | Machine learning baselines and public dataset | 2019 | [PDF](https://arxiv.org/pdf/1811.08839.pdf) | [CODE](https://github.com/facebookresearch/fastMRI/) |
 
