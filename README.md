@@ -13,6 +13,8 @@ MRI is acquiring data in the Fourier domain, called kspace, and to fully samplin
 ## Supervised Deep Learning Methods 
 | Title | Short | Year| PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| Ultra-Fast T2-Weighted MR Reconstruction Using Complementary T1-Weighted Information | Combined sequences | 2021| [PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6430217/) | [CODE]() |
+| Multi-Modal MRI Reconstruction with Spatial Alignment Network | Combined sequences/modalities | 2021| [PDF](https://arxiv.org/pdf/2108.05603.pdf) | [CODE](https://github.com/woxuankai/SpatialAlignmentNetwork) |
 | End-to-End Variational Networks for Accelerated MRI Reconstruction | E2E Varnet | 2020| [PDF](https://arxiv.org/pdf/2004.06688.pdf) | [CODE](https://github.com/facebookresearch/fastMRI/tree/master/fastmri_examples/varnet) |
 | XPDNet for MRI Reconstruction: an Application to the fastMRI 2020 Brain Challenge | Supervised unrolled | 2020 | [PDF](https://arxiv.org/pdf/2010.07290.pdf) | |
 | GrappaNet: Combining Parallel Imaging with Deep Learning for Multi-Coil MRI Reconstruction | Supervised kspace | 2020 | [PDF](https://arxiv.org/pdf/1910.12325v4.pdf) | [CODE](https://github.com/facebookresearch/fastMRI) |
@@ -80,9 +82,11 @@ MRI is acquiring data in the Fourier domain, called kspace, and to fully samplin
 ## Other
 | Title | Short | Year| PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| Data augmentation for deep learning based accelerated MRI reconstruction with limited data | Data Augmentation for reconstruction | 2021 | [PDF](https://arxiv.org/abs/2106.14947) | [CODE](https://github.com/z-fabian/MRAugment) |
 | Results of the 2020 fastMRI Challenge for Machine Learning MR Image Reconstruction | Competition results | 2021 | [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9420272&tag=1) | |
 | Deep Learning Methods for Parallel Magnetic Resonance Image Reconstruction | Survey | 2019 | [PDF](https://arxiv.org/pdf/1904.01112.pdf) | |
 | fastMRI: An Open Dataset and Benchmarks for Accelerated MRI | Machine learning baselines and public dataset | 2019 | [PDF](https://arxiv.org/pdf/1811.08839.pdf) | [CODE](https://github.com/facebookresearch/fastMRI/) |
+
 
 
 # Credits 
