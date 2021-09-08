@@ -17,6 +17,7 @@ MRI is acquiring data in the Fourier domain, called kspace, and to fully samplin
 | Deep J-Sense: Accelerated MRI Reconstruction via Unrolled Alternating Optimization | pMRI reconstruction | 2021| [PDF](https://arxiv.org/pdf/2103.02087.pdf) | [CODE](https://github.com/utcsilab/deep-jsense) |
 | Ultra-Fast T2-Weighted MR Reconstruction Using Complementary T1-Weighted Information | Combined sequences | 2021| [PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6430217/) | [CODE]() |
 | Multi-Modal MRI Reconstruction with Spatial Alignment Network | Combined sequences/modalities | 2021| [PDF](https://arxiv.org/pdf/2108.05603.pdf) | [CODE](https://github.com/woxuankai/SpatialAlignmentNetwork) |
+| Joint Frequency and Image Space Learning for Fourier Imaging | Do reconstruction in kspace and image space | 2020 | [PDF](https://arxiv.org/abs/2007.01441) | |
 | End-to-End Variational Networks for Accelerated MRI Reconstruction | E2E Varnet | 2020| [PDF](https://arxiv.org/pdf/2004.06688.pdf) | [CODE](https://github.com/facebookresearch/fastMRI/tree/master/fastmri_examples/varnet) |
 | XPDNet for MRI Reconstruction: an Application to the fastMRI 2020 Brain Challenge | Supervised unrolled | 2020 | [PDF](https://arxiv.org/pdf/2010.07290.pdf) | |
 | GrappaNet: Combining Parallel Imaging with Deep Learning for Multi-Coil MRI Reconstruction | Supervised kspace | 2020 | [PDF](https://arxiv.org/pdf/1910.12325v4.pdf) | [CODE](https://github.com/facebookresearch/fastMRI) |
@@ -32,6 +33,7 @@ MRI is acquiring data in the Fourier domain, called kspace, and to fully samplin
 ## Unsupervised Deep Learning Methods
 | Title | Short | Year| PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| Bayesian Image Reconstruction using Deep Generative Models | Unsupervised in the sense not trained end-to-end reconstruction | 2021 | [PDF](https://arxiv.org/pdf/2012.04567.pdf) | |
 | ENSURE: A general approach for unsupervised training of deep image reconstruction algorithms | SURE/GSURE | 2021| [PDF](https://arxiv.org/pdf/2010.10631.pdf) |  |
 | Unsupervised MRI Reconstruction with Generative Adversarial Networks | Unsupervised with GAN | 2020 | [PDF](https://arxiv.org/pdf/2008.13065.pdf) | [CODE](https://github.com/MRSRL/unsupGAN-release) |
 | Unsupervised Deep Basis Pursuit: Learning inverse problems without ground-truth data | Supervised and Unsupervised end-to-end reconstruction | 2019 | [PDF](https://arxiv.org/pdf/1910.13110.pdf) | |
@@ -45,7 +47,9 @@ MRI is acquiring data in the Fourier domain, called kspace, and to fully samplin
 ## Low Rank Methods 
 | Title | Short | Year| PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| LORAKI: Autocalibrated Recurrent Neural Networks for Autoregressive MRI Reconstruction in k-Space | Learnig LORAKS | 2019 | [PDF](https://arxiv.org/abs/1904.09390) | |
 | A General Framework for Compressed Sensing and Parallel MRI Using Annihilating Filter Based Low-Rank Hankel Matrix | Parallel imaging and Compressed Sensing (CS) | 2016 | [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7547372) | |
+| Autocalibrated loraks for fast constrained MRI reconstruction | LORAKS | 2015 | [PDF](https://ieeexplore.ieee.org/abstract/document/7164018) | |
 
 ## Prior Based Methods
 | Title | Short | Year| PDF | CODE |
