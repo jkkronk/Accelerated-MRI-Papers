@@ -33,7 +33,6 @@ MRI is acquiring data in the Fourier domain, called kspace, and to fully samplin
 ## Unsupervised Deep Learning Methods
 | Title | Short | Year| PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
-| Bayesian Image Reconstruction using Deep Generative Models | Unsupervised in the sense not trained end-to-end reconstruction | 2021 | [PDF](https://arxiv.org/pdf/2012.04567.pdf) | |
 | ENSURE: A general approach for unsupervised training of deep image reconstruction algorithms | SURE/GSURE | 2021| [PDF](https://arxiv.org/pdf/2010.10631.pdf) |  |
 | Unsupervised MRI Reconstruction with Generative Adversarial Networks | Unsupervised with GAN | 2020 | [PDF](https://arxiv.org/pdf/2008.13065.pdf) | [CODE](https://github.com/MRSRL/unsupGAN-release) |
 | Unsupervised Deep Basis Pursuit: Learning inverse problems without ground-truth data | Supervised and Unsupervised end-to-end reconstruction | 2019 | [PDF](https://arxiv.org/pdf/1910.13110.pdf) | |
@@ -54,6 +53,7 @@ MRI is acquiring data in the Fourier domain, called kspace, and to fully samplin
 ## Prior Based Methods
 | Title | Short | Year| PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| Bayesian Image Reconstruction using Deep Generative Models | Unsupervised in the sense not trained end-to-end reconstruction | 2021 | [PDF](https://arxiv.org/pdf/2012.04567.pdf) | |
 | Joint reconstruction and bias field correction for undersampled MR imaging | VAE reconstruction with Joint biasfield and reconstruction | 2020 | [PDF](https://arxiv.org/pdf/2007.13123v1.pdf) | |
 | MR Image Reconstruction Using Deep Density Priors | VAE | 2019 | [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8579232) | [CODE](https://github.com/kctezcan/ddp_recon) |
 
