@@ -81,6 +81,7 @@ MRI is acquiring data in the Fourier domain, called kspace, and to fully samplin
 ## Robustness 
 | Title | Short | Year| PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| Evaluation of the Robustness of Learned MR Image Reconstruction to Systematic Deviations Between Training and Test Data for the Models from the fastMRI Challenge | Robustness in FastMRI | 2021 | [PDF](https://link.springer.com/chapter/10.1007/978-3-030-88552-6_3) | |
 | Measuring Robustness in Deep Learning Based Compressive Sensing | Robustness | 2021 | [PDF](https://arxiv.org/pdf/2102.06103.pdf) | |
 | Improving Robustness of Deep-Learning-Based Image Reconstruction | Robustness | 2020 | [PDF](https://arxiv.org/pdf/2002.11821.pdf) | |
 | On instabilities of deep learning in image reconstruction and the potential costs of AI | Robustness review | 2019 | [PDF](https://arxiv.org/pdf/1902.05300.pdf) | [CODE](https://github.com/vegarant/Invfool) |
