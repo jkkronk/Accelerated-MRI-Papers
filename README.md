@@ -10,6 +10,8 @@ MRI is acquiring data in the Fourier domain, called kspace, and to fully samplin
   <img width="600" src="/MRI_rec.png" "Example of undersampling artefacts.">
 </p>
 
+Yutong Chen have written a great meta review paper on accelerated MRI that can be found here: [https://arxiv.org/abs/2112.12744 ](https://arxiv.org/abs/2112.12744 ) 
+
 ## Supervised Deep Learning Methods 
 | Title | Short | Year| PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
