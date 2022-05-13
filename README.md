@@ -1,4 +1,7 @@
 # Awesome Accelerated-MRI-Reconstruction-Papers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+## NOT MAINTAINED
+
 A awesome list of a few papers on MRI reconstruction.
 
 If your paper is not on the list, please feel free to [raise an issue](https://github.com/jkkronk/MRI-Reconstruction-Papers/issues) or drop me an [e-mail](mailto:jonatank@ee.ethz.ch?subject=[GitHub]%mri_recon%papers).
