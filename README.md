@@ -4,7 +4,7 @@
 
 An awesome list of papers on MRI reconstruction.
 
-If your paper is not on the list, please feel free to [raise an issue](https://github.com/jkkronk/Accelerated-MRI-Papers/issues) or drop me an [e-mail](mailto:jonatank@ee.ethz.ch?subject=[GitHub]%mri_recon%papers).
+If your paper is not on the list, please feel free to [raise an issue](https://github.com/jkkronk/Accelerated-MRI-Papers/issues) or open a pull request.
 
 ## What is Accelerated MRI-Reconstruction?
 MRI is acquiring data in the Fourier domain, called kspace, and fully sampling the data in kspace is needed to get an accurate image without artefacts. This is a time-consuming task that results in a brain scan taking up to 30 minutes. Accelerated MRI-Reconstruction seeks to reduce the acquisition time to improve efficiency, reduce motion artefacts and improve patient comfort. Accelerated MRI can be done by either introducing new hardware, such as extra receiver coils (called parallel imaging), or apply algorithms for better reconstruction. An excellent detailed introduction can be found in [fastMRI dataset paper](https://arxiv.org/pdf/1811.08839.pdf). Below is an example of a fully sampled and undersampled counterpart. MRI-Reconstruction can be compared with super-resolution as the main goal is to estimate unsampled frequencies. 
