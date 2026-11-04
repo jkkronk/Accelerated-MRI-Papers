@@ -1,6 +1,6 @@
 # Awesome Accelerated-MRI-Reconstruction-Papers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> **Last updated: September 2026.** The list now covers work through mid-2026 (diffusion/score-based priors, self-supervised training, transformers and state-space models, foundation models, learned sampling, new k-space datasets and challenges). Contributions are welcome via issues or pull requests.
+> **Last updated: November 2026.** The list now covers work through early November 2026 (diffusion/score-based priors, self-supervised training, transformers and state-space models, foundation models, learned sampling, new k-space datasets and challenges). Contributions are welcome via issues or pull requests.
 
 An awesome list of papers on MRI reconstruction.
 
@@ -59,8 +59,17 @@ Unrolled / physics-driven networks, transformers, state-space models and other e
 
 | Title | Short | Year | PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| Scalable Unrolled Chains for MRI Reconstruction | Memory-efficient training of deep unrolled cascades (WACV 2027) | 2026 | [PDF](https://arxiv.org/abs/2610.33695) | [CODE](https://github.com/emehillaj/scalable-unrolled-mri) |
+| AGGR-Mamba: Mamba-based Network with Attention-Guided Gated Residual Refinement for Undersampled MRI Reconstruction | Mamba output-stage residual refinement (BIBM 2026) | 2026 | [PDF](https://arxiv.org/abs/2610.28291) |  |
+| Awaken, Then Scale: Tiny Adaptation for MRI Reconstruction | Tiny one-slice adaptation of recon nets | 2026 | [PDF](https://arxiv.org/abs/2609.31813) |  |
+| Beyond Sparsity: Weight Location and Network Context in Pruned MRI Reconstruction | Pruning analysis of U-Net/ViT recon nets | 2026 | [PDF](https://arxiv.org/abs/2609.31812) |  |
+| One Shared LoRA Weight for MRI Reconstruction across Acceleration Factors | One shared LoRA across acceleration factors | 2026 | [PDF](https://arxiv.org/abs/2609.06338) |  |
 | UMPIRE-Net: Unrolled Magnitude-Phase Regularization Network for Accelerated MRI | Separate magnitude/phase unrolled regularizers | 2026 | [PDF](https://arxiv.org/abs/2608.14422) | [CODE](https://github.com/MahdiSaberii/UMPIRE-Net) |
+| SHFormer: Dynamic Spectral Filtering Convolutional Neural Network and High-pass Kernel Generation Transformer for Adaptive MRI Reconstruction | SHFormer: spectral-filtering CNN + high-pass transformer (Neural Networks) | 2026 | [PDF](https://arxiv.org/abs/2607.20159) | [CODE](https://github.com/sriprabhar/SHFormer) |
 | Deep Unrolled Networks in Representation Space Applied to MRI Reconstruction | DUNE: unrolling in learned latent space | 2026 | [PDF](https://arxiv.org/abs/2606.21602) |  |
+| Variational Network with Wavelet-based UNET in Accelerated MRI Reconstruction from Under Sampled K-space Data | VarNet with wavelet U-Net regularizer | 2026 | [PDF](https://arxiv.org/abs/2606.15167) |  |
+| L-TGVN: Leveraging Longitudinal Priors for Personalized Rapid MRI | L-TGVN: longitudinal prior scan as context (MICCAI 2026) | 2026 | [PDF](https://arxiv.org/abs/2606.04419) |  |
+| MoRE: A Mixture-of-Experts-Based Task-Adaptive End-to-End Network for Multimodal MRI Reconstruction | MoRE: mixture-of-experts VarNet, multimodal (EMBC 2026) | 2026 | [PDF](https://arxiv.org/abs/2606.01784) |  |
 | SO-Mamba: State-Ownership Mamba for Unrolled MRI Reconstruction | Mamba regularizer inside unrolled net | 2026 | [PDF](https://arxiv.org/abs/2605.22031) |  |
 | PAS-Mamba: Phase-Amplitude-Spatial State Space Model for MRI Reconstruction | Phase/amplitude dual-branch Mamba | 2026 | [PDF](https://arxiv.org/abs/2601.14530) |  |
 | DH-Mamba: Exploring Dual-domain Hierarchical State Space Models for MRI Reconstruction | Dual-domain hierarchical Mamba | 2025 | [PDF](https://arxiv.org/abs/2501.08163) | [CODE](https://github.com/XiaoMengLiLiLi/DH-Mamba) |
@@ -101,6 +110,7 @@ Single models trained across anatomies, contrasts, sampling patterns and sites; 
 
 | Title | Short | Year | PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| Beyond Training from Scratch: Foundation Models for Data-Efficient and Generalizable Cardiac MRI Reconstruction | Pretrained vision backbones for data-efficient cardiac recon (ECCVW 2026) | 2026 | [PDF](https://arxiv.org/abs/2610.08109) |  |
 | Are Natural-Domain Foundation Models Effective for Accelerated Cardiac MRI Reconstruction? | Frozen CLIP/DINOv2 priors in unrolled net | 2026 | [PDF](https://arxiv.org/abs/2604.22557) |  |
 | CRUNet-MR-Univ: A Foundation Model for Diverse Cardiac MRI Reconstruction | Prompt-based universal cardiac reconstruction | 2026 | [PDF](https://arxiv.org/abs/2601.04428) |  |
 | UPCMR: A Universal Prompt-guided Model for Random Sampling Cardiac MRI Reconstruction | Prompt-guided universal unrolled model | 2025 | [PDF](https://arxiv.org/abs/2502.14899) | [CODE](https://github.com/dong845/UPCMR) |
@@ -119,7 +129,17 @@ Diffusion / score-based / flow-matching models used as priors for posterior samp
 
 | Title | Short | Year | PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| D-MOD: Diffusion mode estimation for accelerated MRI | D-MOD: posterior mode instead of sampling | 2026 | [PDF](https://arxiv.org/abs/2610.40110) |  |
+| Guidance-Coupled Nullspace Drifting for One-Step Medical Image Reconstruction | DriftRecon: one-step nullspace drifting (CT + MRI) | 2026 | [PDF](https://arxiv.org/abs/2610.38953) |  |
+| Cascaded Posterior Sampling With Diffusion Priors for highly Accelerated MRI | Cascaded multiscale diffusion priors, posterior sampling | 2026 | [PDF](https://arxiv.org/abs/2610.34170) |  |
+| Stochastic Finite-Transition Learning and Exploration for Accelerated MRI Reconstruction | FLEX-MRI: finite-transition learning, few-step generative recon | 2026 | [PDF](https://arxiv.org/abs/2610.13095) |  |
+| CLIMB-flow: Coupled Linear Inverse posterior sampling via Multiscale-Based flow | CLIMB-flow: multiscale pixel-domain posterior sampling (fastMRI) | 2026 | [PDF](https://arxiv.org/abs/2609.33834) |  |
+| One Evaluation, Any Operating Point: Hypernetwork-Amortized MeanFlow for 3D MRI Reconstruction | Hypernetwork-amortized one-step MeanFlow, 3D | 2026 | [PDF](https://arxiv.org/abs/2609.31655) |  |
+| CyFM: Cylindrical Optimal Transport for Few-Step Complex-Valued Flow Matching | CyFM: complex-valued cylindrical flow matching (fastMRI knee) | 2026 | [PDF](https://arxiv.org/abs/2609.14171) |  |
 | Consistency Models for Fast MRI Reconstruction Using Regularization by Denoising | Consistency model prior, 4-step RED | 2026 | [PDF](https://arxiv.org/abs/2608.20561) | [CODE](https://github.com/MerveGulle/CM-RED) |
+| Self-Auditing Residual Drifting for Pathology-Preserving Accelerated Knee MRI | SA-RDM-DC: self-auditing residual drifting, knee | 2026 | [PDF](https://arxiv.org/abs/2607.02428) |  |
+| High-dimensional Embedding Prior for Noisy K-space Domain MRIReconstruction | High-dimensional embedding prior, noisy k-space diffusion | 2026 | [PDF](https://arxiv.org/abs/2607.01176) |  |
+| Measured-Subspace Consistency: A Plug-and-Play Operator for Diffusion Posterior Sampling in Accelerated MRI Reconstruction | Measured-subspace consistency operator for DPS | 2026 | [PDF](https://arxiv.org/abs/2606.28448) |  |
 | MPFlow: Multi-modal Posterior-Guided Flow Matching for Zero-Shot MRI Reconstruction | Zero-shot multi-modal flow matching | 2026 | [PDF](https://arxiv.org/abs/2603.03710) |  |
 | Fast and Robust Diffusion Posterior Sampling for MR Image Reconstruction Using the Preconditioned Unadjusted Langevin Algorithm | Preconditioned Langevin posterior sampling | 2025 | [PDF](https://arxiv.org/abs/2512.05791) | [CODE](https://gitlab.tugraz.at/ibi/mrirecon/papers/dps-pula) |
 | Patch-Based Diffusion for Data-Efficient, Radiologist-Preferred MRI Reconstruction | Patch-based diffusion prior, data-efficient | 2025 | [PDF](https://arxiv.org/abs/2509.21531) | [CODE](https://github.com/voilalab/PaDIS-MRI) |
@@ -158,6 +178,8 @@ Training without fully-sampled reference data.
 
 | Title | Short | Year | PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| Hankel Subspace Self-Supervised Learning for Parallel MRI Reconstruction | Hankel-subspace self-supervision, parallel MRI | 2026 | [PDF](https://arxiv.org/abs/2610.11560) |  |
+| DREAM: Deep-Reparametrization of Adaptive Regularization Maps for Fast Zero-Shot Self-Supervised Learning | DREAM: zero-shot self-supervised adaptive TV/TGV maps, dynamic cardiac | 2026 | [PDF](https://arxiv.org/abs/2609.04019) |  |
 | Optimized Multi-Contrast Self-Supervised MRI Reconstruction using Learned k-space Partitioning | Learned k-space split, multi-contrast | 2026 | [PDF](https://arxiv.org/abs/2606.19182) |  |
 | CoilDrop-MRI: Self-supervised physics-guided MRI reconstruction with coil dropout | Self-supervision via coil dropout | 2026 | [PDF](https://arxiv.org/abs/2606.00100) |  |
 | Towards a Unified Theoretical Framework for Splitting-based Self-Supervised MRI Reconstruction | Unified theory of k-space splitting SSL | 2026 | [PDF](https://arxiv.org/abs/2601.04775) |  |
@@ -183,6 +205,10 @@ Training without fully-sampled reference data.
 ## Untrained, Scan-Specific and Implicit Neural Representation Methods
 | Title | Short | Year | PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| SGAM: Shared Gaussian Geometry with Implicit Amplitude Modeling for Scan-Specific 3D Multi-Contrast MRI Reconstruction | SGAM: scan-specific 3D multi-contrast with shared Gaussians | 2026 | [PDF](https://arxiv.org/abs/2609.24468) |  |
+| Primitive Representation Learning for Unsupervised Dynamic Contrast Enhanced MRI Reconstruction | Gaussian/Gabor primitives for unsupervised DCE-MRI (MICCAI Off-Grid 2026) | 2026 | [PDF](https://arxiv.org/abs/2608.18055) | [CODE](https://github.com/compai-lab/2026-GaborDCE-spieker) |
+| K-space Gaussian Representation for Parallel MRI | Continuous k-space Gaussian representation, parallel MRI | 2026 | [PDF](https://arxiv.org/abs/2608.00075) |  |
+| Enhancing Implicit Neural Representations with Image Feature Embedding for Unsupervised Cardiac Cine MRI Reconstruction | INR + image feature embedding, unsupervised cardiac cine | 2026 | [PDF](https://arxiv.org/abs/2607.04069) |  |
 | DD-INR: Dynamics-Driven Implicit Neural Representation for Accelerated Whole-Brain Functional MRI Reconstruction | INR for accelerated fMRI | 2026 | [PDF](https://arxiv.org/abs/2606.10756) | [CODE](https://github.com/JoosenLi/DD-INR) |
 | Physics-Driven Zero-Shot MRI Reconstruction with Non-local Image Priors | Zero-shot with non-local priors | 2026 | [PDF](https://arxiv.org/abs/2606.15110) |  |
 | Self-supervised Deep Unrolled Model with Implicit Neural Representation Regularization for Accelerating MRI Reconstruction | Zero-shot unrolled net + INR prior | 2025 | [PDF](https://arxiv.org/abs/2510.06611) |  |
@@ -200,8 +226,15 @@ Training without fully-sampled reference data.
 ## Dynamic and Cardiac MRI Reconstruction
 | Title | Short | Year | PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| Prior-Guided Physics-Informed Deep Learning for Fast 4D MRI Reconstruction | PGPI4MR: prior-guided unrolled 4D respiratory MRI | 2026 | [PDF](https://arxiv.org/abs/2611.01888) |  |
+| Joint Supervised and Self-Supervised Training with Acquisition-Robust Techniques for Accelerated 4D Flow MRI Reconstruction | Joint supervised/self-supervised 4D flow VarNet | 2026 | [PDF](https://arxiv.org/abs/2609.38644) |  |
+| Patch-Based Diffusion Reconstruction for Accelerated Cardiac Cine | CineDiff: patch-based diffusion, real-time cine | 2026 | [PDF](https://arxiv.org/abs/2608.28927) |  |
+| MOSAIC: A Self-supervised Dynamic Multi-encoding Reconstruction Framework for 3D Late Gadolinium Enhancement MRI | MOSAIC: self-supervised motion-resolved 3D LGE | 2026 | [PDF](https://arxiv.org/abs/2608.19506) |  |
+| Harnessing Magnitude-Only and Complex Measurements for Improved Dynamic MRI Reconstruction with Learned Priors | Magnitude-only + complex measurements, dynamic (IEEE TBME) | 2026 | [PDF](https://arxiv.org/abs/2608.18036) |  |
+| Fast ungated five-dimensional cardiac MRI on a 1.5 T MR-linac for MRI-guided radiotherapy | Fast ungated 5D cardiac MRI on MR-linac (CMR-MOTUS) | 2026 | [PDF](https://arxiv.org/abs/2607.16033) |  |
 | Piecewise Dynamic Diffusion Regularization for Reconstruction of Cardiac Cine MRI | Spatiotemporal diffusion prior, real-time cine | 2026 | [PDF](https://arxiv.org/abs/2607.03299) | [CODE](https://github.com/MLI-lab/pddr) |
 | FlowMoDL: Model-Based Deep Learning with Conjugate-Gradient Data Consistency for Highly Accelerated 4D Flow MRI Reconstruction | Unrolled 4D flow, CG data consistency | 2026 | [PDF](https://arxiv.org/abs/2608.25828) |  |
+| Prospective Dynamic 3D MRI Reconstruction via Latent-Space Motion Tracking from Single Measurement | PDMR: prospective dynamic 3D recon, latent motion tracking | 2026 | [PDF](https://arxiv.org/abs/2606.04249) |  |
 | Motion-Robust Deep Reconstruction for Free-Breathing Cardiac Cine MRI | Free-breathing unrolled cine pipeline | 2026 | [PDF](https://arxiv.org/abs/2605.20687) |  |
 | Dynamic MRI Reconstruction Via Dual Deep Priors and Low-Rank Plus Sparse Modeling | Dual deep priors + L+S dynamic | 2026 | [PDF](https://arxiv.org/abs/2605.18709) |  |
 | PISCO: Self-Supervised k-Space Regularization for Improved Neural Implicit k-Space Representations of Dynamic MRI | Self-supervised regularizer for neural k-space | 2025 | [PDF](https://arxiv.org/abs/2501.09403) | [CODE](https://github.com/compai-lab/2025-pisco-spieker) |
@@ -222,6 +255,12 @@ Training without fully-sampled reference data.
 ## Quantitative, Multi-Contrast and Diffusion-Weighted MRI Reconstruction
 | Title | Short | Year | PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| High-Resolution Quantitative MRI Using Contrast-Domain Multiscale Energy (MuSE) Regularization | Diffusion-model MuSE regularization for high-res qMRI | 2026 | [PDF](https://arxiv.org/abs/2611.05132) |  |
+| Learning Subject-Specific Anatomical Representations via Manifold Expansion: Application to Accelerated Multi-Contrast MRI | Contrast-invariant anatomical representations, multi-contrast | 2026 | [PDF](https://arxiv.org/abs/2610.04028) |  |
+| Diffusion-Encoding Gaussian Field for Joint k-q dMRI Reconstruction | Diffusion-encoding Gaussian field, joint k-q dMRI | 2026 | [PDF](https://arxiv.org/abs/2609.02288) |  |
+| Data-Efficient Networks for Multi-Contrast MRI Reconstruction based on a Generalized Content/Style Prior | Content/style prior, data-efficient multi-contrast | 2026 | [PDF](https://arxiv.org/abs/2609.01959) |  |
+| Self-Supervised Implicit CEST Reconstruction via Physics-Informed Lorentz Encoding | Physics-informed implicit CEST reconstruction (MICCAI 2026) | 2026 | [PDF](https://arxiv.org/abs/2607.06132) |  |
+| Distortion-Corrected Diffusion MRI Using Rotated-View EPI and Joint Field-Map/Image Estimation with Gaussian Primitives | Joint field-map/image dMRI recon with Gaussian primitives | 2026 | [PDF](https://arxiv.org/abs/2606.31521) |  |
 | MRI2Qmap: multi-parametric quantitative mapping with MRI-driven denoising priors | Denoising-prior multi-parametric qMRI | 2026 | [PDF](https://arxiv.org/abs/2603.11316) |  |
 | Fully 3D Unrolled Magnetic Resonance Fingerprinting Reconstruction via Staged Pretraining and Implicit Gridding | Fully 3D unrolled MRF (SPUR-iG) | 2026 | [PDF](https://arxiv.org/abs/2601.17143) |  |
 | Quantitative mapping from conventional MRI using self-supervised physics-guided deep learning: applications to a large-scale, clinically heterogeneous dataset | Self-supervised physics-guided qMRI, clinical scale | 2026 | [PDF](https://arxiv.org/abs/2601.05063) |  |
@@ -250,6 +289,10 @@ Training without fully-sampled reference data.
 ## Motion-Robust Reconstruction
 | Title | Short | Year | PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| Unified Motion Correction and Reconstruction for Accelerated Zero Echo Time MRI | EnMoCo: joint motion + recon for accelerated ZTE | 2026 | [PDF](https://arxiv.org/abs/2611.05169) |  |
+| Training-Free Motion-Corrected 3D Brain MRI Reconstruction via Event-Guided References | EventMC: training-free motion-corrected 3D brain recon | 2026 | [PDF](https://arxiv.org/abs/2611.01902) | [CODE](https://github.com/bayesbreeze/EventMC) |
+| MoSAIK: Motion Search with Artificial Intelligence in K-space | MoSAIK: AI motion search directly in TSE k-space | 2026 | [PDF](https://arxiv.org/abs/2610.27156) |  |
+| DoReMe: Dual optimization of Reconstruction and Motion estimation for self-navigated free-breathing abdominal MRI using Gaussian Splatting | DoReMe: joint recon + Gaussian-splatting motion, free-breathing abdominal | 2026 | [PDF](https://arxiv.org/abs/2610.19120) |  |
 | MotionDPS: Motion-Compensated 3D Brain MRI Reconstruction | Diffusion posterior joint motion+image+coils | 2026 | [PDF](https://arxiv.org/abs/2605.22121) |  |
 | A network-assisted joint image and motion estimation approach for robust 3D MRI motion correction across severity levels | Network-assisted joint 3D rigid MoCo | 2025 | [PDF](https://doi.org/10.1002/mrm.70052) |  |
 | Non-rigid Motion Correction for MRI Reconstruction via Coarse-To-Fine Diffusion Models | Coarse-to-fine diffusion non-rigid MoCo | 2025 | [PDF](https://arxiv.org/abs/2505.15057) |  |
@@ -275,6 +318,9 @@ Training without fully-sampled reference data.
 ## Non-Cartesian, 3D and Low-Field Reconstruction
 | Title | Short | Year | PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| LieGROG: A Lie algebra approach for calibrating GRAPPA operators | LieGROG: Lie-algebra GRAPPA operator calibration (non-Cartesian) | 2026 | [PDF](https://arxiv.org/abs/2610.30927) |  |
+| Distortion-Free High-Resolution PROPELLER-DWI: Technical Advances and Initial Demonstration for the Prostate | PROPELLER-DWI with self-supervised joint recon/denoising | 2026 | [PDF](https://arxiv.org/abs/2610.05426) |  |
+| Physics-informed denoising method for image reconstruction in quantitative low-field MRI | Physics-informed denoising for quantitative low-field recon | 2026 | [PDF](https://arxiv.org/abs/2609.12966) |  |
 | Weakly Convex Ridge Regularization for 3D Non-Cartesian MRI Reconstruction | Learned weakly-convex regularizer 3D non-Cartesian | 2026 | [PDF](https://arxiv.org/abs/2603.27158) |  |
 | Rapid online deep artifact suppression for real-time spiral bSSFP CMR with blipped-CAIPI simultaneous multi-slice imaging at 1.5 T | Online DL spiral SMS real-time CMR | 2026 | [PDF](https://arxiv.org/abs/2605.26127) |  |
 | Physics-Guided Dual-Domain Network with Attention-Based Fusion for Portable MRI Reconstruction | Dual-domain portable low-field recon | 2026 | [PDF](https://arxiv.org/abs/2602.19829) |  |
@@ -303,6 +349,11 @@ Training without fully-sampled reference data.
 ## Learned Sampling and Joint Acquisition-Reconstruction Optimization
 | Title | Short | Year | PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| OpenMASC: An Open-Source Pipeline for Cross-Trajectory Metal-Aware Sampling and Correction in Accelerated MRI | OpenMASC: metal-aware sampling + correction pipeline, cross-trajectory | 2026 | [PDF](https://arxiv.org/abs/2609.32343) |  |
+| Active Data Acquisition with Side Information via Discrete Diffusion Priors | Mask policy via discrete diffusion prior (vs LOUPE on fastMRI) | 2026 | [PDF](https://arxiv.org/abs/2609.32252) |  |
+| Quantum Adaptive Sensing for Accelerated MRI | QUBO adaptive phase-encode selection (quantum-annealing compatible) | 2026 | [PDF](https://arxiv.org/abs/2607.21737) |  |
+| Frequency-Hierarchical Active k-Space Sampling for Diagnostic MRI | HieraSample: frequency-hierarchical active sampling (EMA4MICCAI 2026) | 2026 | [PDF](https://arxiv.org/abs/2607.19779) |  |
+| Prior-aware and Context-guided Group Sampling for Active Probabilistic Subsampling | Prior-aware group sampling for active probabilistic subsampling (ICLR 2026) | 2026 | [PDF](https://arxiv.org/abs/2607.07083) |  |
 | NexOP: Joint Optimization of NEX-Aware k-space Sampling and Image Reconstruction for Low-Field MRI | Joint sampling/recon across averages, low-field | 2026 | [PDF](https://arxiv.org/abs/2605.11583) |  |
 | Flow-Based Generative Modeling for Optimizing Sampling Policies in Compressed Sensing Applications | Flow-matching prior for sampling policy | 2026 | [PDF](https://arxiv.org/abs/2606.00078) |  |
 | Scan-Adaptive Dynamic MRI Undersampling Using a Dictionary of Efficiently Learned Patterns | Scan-adaptive dynamic mask dictionary | 2026 | [PDF](https://arxiv.org/abs/2602.13984) | [CODE](https://github.com/sidgautam95/rbicd-dynamic-mri-sampling) |
@@ -338,6 +389,7 @@ Training without fully-sampled reference data.
 ## Classical Methods for Parallel Imaging and Compressed Sensing
 | Title | Short | Year | PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| LGGS: Longitudinal MRI Reconstruction via Guided Group Sparsity | LGGS: longitudinal guided group sparsity | 2026 | [PDF](https://arxiv.org/abs/2610.22643) |  |
 | ESPIRiT—an eigenvalue approach to autocalibrating parallel MRI: Where SENSE meets GRAPPA | Parallel imaging | 2014 | [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.24751) | [CODE](https://github.com/mikgroup/sigpy) |
 | Joint image reconstruction and sensitivity estimation in SENSE (JSENSE) | Parallel imaging | 2007 | [PDF](https://pubmed.ncbi.nlm.nih.gov/17534910/) | [CODE](https://github.com/jkkronk/jsense_mri_reconstruction) |
 | Sparse MRI: The Application of Compressed Sensing for Rapid MR Imaging | Compressed Sensing (CS) | 2007 | [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.21391) | [CODE](https://github.com/peng-cao/mripy) |
@@ -352,6 +404,7 @@ Training without fully-sampled reference data.
 ## Uncertainty Estimation
 | Title | Short | Year | PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| CUPA-T2\*: Covariance-Aware Uncertainty Propagation and Alignment for T2\* Mapping in Accelerated MRI | CUPA-T2\*: uncertainty propagation into T2\* fitting (RIME MICCAI 2026) | 2026 | [PDF](https://arxiv.org/abs/2608.08693) |  |
 | Pixelwise Uncertainty Quantification of Accelerated MRI Reconstruction | Conformal quantile-regression pixel UQ | 2026 | [PDF](https://arxiv.org/abs/2601.13236) |  |
 | Trustworthy MRI Reconstruction via Bayesian Uncertainty Quantification with Sparsity Prior Models | Proximal-MCMC Bayesian UQ | 2026 | [PDF](https://arxiv.org/abs/2606.17343) |  |
 | CUTE-MRI: Conformalized Uncertainty-based framework for Time-adaptivE MRI | Conformal UQ for adaptive scan time | 2025 | [PDF](https://arxiv.org/abs/2508.14952) |  |
@@ -375,6 +428,7 @@ Training without fully-sampled reference data.
 ## Robustness, Distribution Shift and Adversarial Attacks
 | Title | Short | Year | PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| Contrast-Informed Augmentation and Domain-Adversarial Training for Adult-to-Neonatal MR Reconstruction Generalization | Adult-to-neonatal generalization of E2E-VarNet | 2026 | [PDF](https://arxiv.org/abs/2606.13562) |  |
 | Triggering hallucinations in model-based MRI reconstruction via adversarial perturbations | Adversarial hallucination attacks | 2026 | [PDF](https://arxiv.org/abs/2602.18536) | [CODE](https://github.com/saeyslab/adversarial-mri) |
 | Improving Deep Learning for Accelerated MRI With Data Filtering | Data curation, 48-test-set robustness | 2025 | [PDF](https://arxiv.org/abs/2508.13822) | [CODE](https://github.com/MLI-lab/data_filtering_for_accelerated_mri) |
 | D2SA: Dual-Stage Distribution and Slice Adaptation for Efficient Test-Time Adaptation in MRI Reconstruction | Efficient test-time adaptation | 2025 | [PDF](https://arxiv.org/abs/2503.20815) |  |
@@ -399,6 +453,9 @@ Training without fully-sampled reference data.
 ## Evaluation, Metrics and Clinical Validation
 | Title | Short | Year | PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| End-to-end prostate lesion segmentation and detection from undersampled diffusion-weighted MRI | VarNet-Seg: end-to-end lesion segmentation from undersampled prostate DWI | 2026 | [PDF](https://arxiv.org/abs/2610.33554) |  |
+| You Cannot Recover What Was Never Measured: Quantifying the Information Ceiling of Ultra-Low-Field MRI Super-Resolution | Information ceiling of 64 mT super-resolution; fabrication vs recovery | 2026 | [PDF](https://arxiv.org/abs/2609.36837) |  |
+| Evaluating the Safety of Deep Learning-Based Brain MRI Reconstruction | Systematic review: do evaluations catch lesion erasure/hallucination? | 2026 | [PDF](https://arxiv.org/abs/2608.28714) |  |
 | Evaluation of Machine Learning Reconstruction Techniques for Accelerated Brain MRI Scans | Neuroradiologist reader study, 4x brain | 2025 | [PDF](https://arxiv.org/abs/2509.07193) |  |
 | Mind the Detail: Uncovering Clinically Relevant Image Details in Accelerated MRI with Semantically Diverse Reconstructions | Diverse recon recovers missed pathology | 2025 | [PDF](https://arxiv.org/abs/2507.00670) | [CODE](https://github.com/NikolasMorshuis/SDR) |
 | Correlation of objective image quality metrics with radiologists' diagnostic confidence depends on the clinical task performed | IQMs vs task-specific radiologist confidence | 2025 | [PDF](https://doi.org/10.1117/1.JMI.12.5.051803) |  |
@@ -435,6 +492,8 @@ Training without fully-sampled reference data.
 ## Challenges and Benchmarks
 | Title | Short | Year | PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
+| CMRx4DFlow2026: Ultra-Fast 4D Flow MRI Reconstruction Challenge (MICCAI 2026) | 4D flow, 10x-50x, 400+ cases from 10+ centers; overview paper pending | 2026 | [PDF](https://cmrxrecon.github.io/2026/) | [CODE](https://github.com/CmrxRecon/CMRx4DFlow2026) |
+| CMRxRecon2025: Foundation Model for Cardiac MRI Reconstruction across Centers, Vendors and Diseases (MICCAI 2025) | 2025 challenge; STACOM LNCS 16459 papers, overview paper pending | 2025 | [PDF](https://cmrxrecon.github.io/2025/Home.html) | [CODE](https://github.com/CmrxRecon/CMRxRecon2025) |
 | Towards Modality- and Sampling-Universal Learning Strategies for Accelerating Cardiovascular Imaging: Summary of the CMRxRecon2024 Challenge | CMRxRecon2024 challenge results | 2025 | [PDF](https://arxiv.org/abs/2503.03971) | [CODE](https://github.com/CmrxRecon/CMRxRecon2024) |
 | Understanding Benefits and Pitfalls of Current Methods for the Segmentation of Undersampled MRI Data | Benchmark: segmentation under undersampling | 2025 | [PDF](https://arxiv.org/abs/2508.18975) |  |
 | The state-of-the-art in Cardiac MRI Reconstruction: Results of the CMRxRecon Challenge in MICCAI 2023 | CMRxRecon 2023 challenge results | 2024 | [PDF](https://arxiv.org/abs/2404.01082) | [CODE](https://github.com/CmrxRecon/CMRxRecon-SciData) |
@@ -448,6 +507,7 @@ Training without fully-sampled reference data.
 | Title | Short | Year | PDF | CODE |
 | :-----|:---:|:---:|:----:|:----:|
 | BART Streams: Real-Time Reconstruction Using a Modular Framework for Pipeline Processing | BART real-time streaming pipelines | 2026 | [PDF](https://doi.org/10.1002/mrm.70455) | [CODE](https://codeberg.org/mrirecon/bart) |
+| BART Online Open-Source Sequence Toolbox for Computational MRI | BART online open-source pulse-sequence toolbox | 2026 | [PDF](https://arxiv.org/abs/2607.19099) |  |
 | MRpro: open framework for model-based, learned, and quantitative MR imaging | PyTorch MR recon toolbox | 2025 | [PDF](https://arxiv.org/abs/2507.23129) | [CODE](https://github.com/PTB-MR/mrpro) |
 | DeepInverse: A Python package for solving imaging inverse problems with deep learning | PyTorch inverse-problems library | 2025 | [PDF](https://arxiv.org/abs/2505.20160) | [CODE](https://github.com/deepinv/deepinv) |
 | MRI-NUFFT: Doing non-Cartesian MRI has never been easier | Non-Cartesian NUFFT toolbox | 2025 | [PDF](https://doi.org/10.21105/joss.07743) | [CODE](https://github.com/mind-inria/mri-nufft) |
